@@ -17,6 +17,10 @@ const routes = [
     name: 'Details',
     component: () => import('../views/Details.vue'),
   },
+  {
+    path: '/:pathMatch(.*)*',
+    redirect: '/',
+  },
 ];
 
 const router = createRouter({
