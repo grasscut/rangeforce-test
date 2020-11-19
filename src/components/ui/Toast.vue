@@ -24,7 +24,7 @@ export default({
       if (value) {
         hideTimeout = setTimeout(() => {
           this.$emit('update:show');
-        }, 5000);
+        }, 2000);
       }
     },
   },
