@@ -1,29 +1,8 @@
 # rangeforce-test
 
-## Project setup
-```
-yarn install
-```
+Vue 3 + Vue Router + Vuex
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Features:
+- GitHub repos search
+- viewing repo details and readme files
+- bookmarking repos
